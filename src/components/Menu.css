@@ -1,0 +1,204 @@
+.main {
+    font-family: Arial, sans-serif;
+    margin: 0 auto;
+  }
+  
+  .header {
+    margin: 0px;
+    background-color: #3498db;
+    padding: 5px;
+    padding-left: 30px !important;
+  }
+
+  h1{
+    text-align: start;
+    color: white;
+}
+  
+  .all-parts {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .all-search {
+    width: 60%;
+  }
+  
+  .search {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .search input {
+    padding: 8px;
+    margin-right: 10px;
+    width: 70%;
+  }
+  
+  .search-b {
+    padding: 8px 12px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+  }
+  
+  .search-b:hover {
+    background-color: #2980b9;
+  }
+  
+  .search-rs h2 {
+    font-size: 18px; 
+    margin-bottom: 10px;
+  }
+  
+  .search-rs ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .search-rs li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    background-color: antiquewhite;
+  }
+  
+  .search-rs li img {
+    width: 180px;
+    height: 250px;
+    margin-right: 10px;
+  }
+  
+  .search-rs li span {
+    flex: 1;
+  }
+  
+  .search-rs li button {
+    padding: 6px 10px;
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .search-rs li button:nth-child(2) {
+    margin-left: 5px;
+    background-color: #e67e22;
+  }
+  
+  .search-rs li button:hover {
+    opacity: 0.8;
+  }
+  
+  .list-movies {
+    width: 35%;
+  }
+  
+  .list-movies h2 {
+    font-size: 18px; 
+    margin-bottom: 10px;
+  }
+  
+  .list-movies input {
+    padding: 8px;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  
+  .list-movies ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .list-movies li {
+    margin-bottom: 10px;
+  }
+  
+  .list-movies li button {
+    padding: 6px 10px;
+    background-color: #c0392b;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .list-movies li button:hover {
+    opacity: 0.8;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .buttons button {
+    padding: 10px 20px;
+    font-size: 16px; 
+    border: none;
+  }
+  
+  .buttons button:first-child {
+    background-color: #2ecc71;
+    color: white;
+  }
+  
+  .buttons button:last-child {
+    background-color: #3498db;
+    color: white;
+  }
+  
+  .buttons button:hover {
+    opacity: 0.8;
+  }
+
+@media screen and (max-width: 768px) {
+  .all-parts {
+    flex-direction: column; 
+    padding: 10px; 
+  }
+  
+  .all-search {
+    width: 100%; 
+  }
+  
+  .list-movies {
+    width: 100%; 
+  }
+  
+  .buttons {
+    flex-direction: column; 
+    margin-top: 10px; 
+  }
+  
+  .buttons button {
+    width: 100%; 
+    margin-bottom: 5px; 
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  .search input {
+    width: 60%; 
+  }
+  
+  .search-b {
+    padding: 8px;
+  }
+  
+  .search-rs li {
+    flex-direction: column; 
+  }
+  
+  .search-rs li img {
+    width: 100%; 
+    height: auto;
+    margin-right: 0; 
+  }
+  
+}
+
+  
